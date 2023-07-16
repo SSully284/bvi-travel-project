@@ -168,6 +168,15 @@ footer a {
   margin: 30px 0;
 }
 
+.card-header.grid {
+  column-gap: 0;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
 .card-body {
   padding: 30px;
 }
@@ -195,7 +204,7 @@ footer a {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
@@ -261,5 +270,13 @@ footer a {
 
   .footer-end-tag {
     font-size: 14px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
