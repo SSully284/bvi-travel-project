@@ -109,6 +109,27 @@ section.secondary {
   background: #f8f8f8;
 }
 
+table {
+  width: 100%;
+  margin: 30px 0;
+  border: 3px solid #000521;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: center;
+  border: 1px solid #000521;
+}
+
+tr {
+  text-align: center;
+  height: 50px;
+}
+
+td {
+  border: 1px solid #000521;
+}
+
 footer {
   color: white;
   background-image: linear-gradient(rgba(9, 5, 33, 0.9), rgba(9, 5, 33, 0.9)),
